@@ -1,0 +1,17 @@
+from tkinter import *
+window=Tk()
+
+window.title("Window")
+window.geometry("300x300")
+
+label=Label(text="Hi",fg="black",bg="white")
+button=Button(text="Write something down there",fg="pink",bg="blue")
+entry=Entry(width=100,fg="white",bg="black")
+text=Text(fg="red",bg="pink")
+
+label.pack()
+button.pack()
+entry.pack()
+text.pack()
+
+window.mainloop()
